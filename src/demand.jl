@@ -11,11 +11,16 @@ function main(Nc,bp,p1,p2)
         tmp=sortperm(consuopt[:,i])
         choice[i]=tmp[end]
     end
+    ncons=zeros(3)
+    ncons[1]=sum(choice.==1)
+    ncons[2]=sum(choice.==2)
+    ncons[3]=sum(choice.==3)
+    shares  =ncons./Nc
     println("Market Shares")
-    println("Product 1:  ", round( ( sum(choice.==1)/Nc)*100 )  )    
-    println("Product 2:  ", round( ( sum(choice.==2)/Nc)*100 )  )    
-    println("Not buy  :  ", round( ( sum(choice.==3)/Nc)*100 )  )    
+    println("Product 1:  ", round(shares[1]*1000) * 1e-1 )     
+    println("Product 2:  ", round(shares[2]*1000) * 1e-1 )    
+    println("Not buy  :  ", round(shares[3]*1000) * 1e-1 )    
 
 
-    return choice
+    return (ncons,shares,choice)
 end
