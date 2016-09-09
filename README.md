@@ -14,7 +14,7 @@ go to the new notebook and type
 
 ;cd ~/en2class/src     then press Shift+Enter
 
-using Distribution     then press Shift+Enter
+using Distributions     then press Shift+Enter
 
 include("demand.jl")   then press Shift+Enter
 
