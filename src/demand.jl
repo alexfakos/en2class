@@ -1,5 +1,5 @@
 #calculate demand functions from discrete choice model
-function main(Nc,bp,p1,p2)
+function shares(Nc,bp,p1,p2)
     srand(2) #set the seed
     const consepsil = rand(GeneralizedExtremeValue(0,1,0),2,Nc) #generate heterogeneity
     const consu1    = bp*p1 + consepsil[1,:] #consumers' utility for t
@@ -24,3 +24,17 @@ function main(Nc,bp,p1,p2)
 
     return (ncons,shares,choice)
 end
+
+
+
+function calcdemand1(Nc,bp,p2)
+    srand(2)
+    const consepsil = rand(GeneralizedExtremeValue(0,1,0),2,Nc) #generate heterogeneity
+    const consu2    = bp*p2 + consepsil[2,:] #consumers' utility for t
+    const u0        = zeros(1,Nc)
+    D=0.0
+    p=0.0
+    consu1    = bp*p1 + consepsil[1,:] #consumers' utility for t
+    for i=1:1e7
+        
+
