@@ -16,9 +16,9 @@ go to the new notebook and type
 
 using Distributions     then press Shift+Enter
 
-include("demand.jl")   then press Shift+Enter
+include("rundir.jl")   then press Shift+Enter
 
-main(200,-.1,2,2);     then press Shift+Enter
+rundir();              then press Shift+Enter
 
 you should be able to see 
 
