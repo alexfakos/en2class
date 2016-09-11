@@ -14,22 +14,28 @@ INSTRUCTIONS
 
 using your browser go to https://juliabox.com/ and sign in using your preferred method (via linked in, google, or github)
 
-go to the console tab and execute the following
+In the following instructions the command is in >> << 
 
-git clone https://github.com/alexfakos/en2class.git
+So when I tell you execute >>command<< you have to type: command  and then press enter or shift+enter
 
-go to the jupyter tab and then open the directory en2class/src
+--------------------------------------------------------
 
-then got to the New tab and select: New>julia 0.4.6
+go to the console tab and type following (if you want to paste the command, right click in the black space and choose: paste from browser):
 
-go to the new notebook and type
+>>git clone https://github.com/alexfakos/en2class.git<<  then press enter
 
-include("rundir.jl")   then press Shift+Enter
+go to the jupyter tab and then open the folder  en2class and then the folder src
 
-rundir(4);              then press Shift+Enter to compile
+then got to the New tab (top right corner) and select: New>julia 0.4.6
 
-(d,p)=rundir(400);      then press Shift+Enter to run the model
+go to the new notebook and type the following commands:
 
-using PyPlot           then press Shift+Enter 
+>>include("rundir.jl")<<    then press Shift+Enter
 
-plot(d,p)               then press Shift+Enter to plot the demand curve
+>>rundir(4);<<              then press Shift+Enter to compile
+
+>>(d,p)=rundir(400);<<      then press Shift+Enter to run the model
+
+>>using PyPlot<<            then press Shift+Enter 
+
+>>plot(d,p)<<               then press Shift+Enter to plot the demand curve
