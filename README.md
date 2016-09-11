@@ -12,7 +12,7 @@ this is a simple example of
 
 INSTRUCTIONS
 
-using your browser go to juliabox.com and singn in using your preferred method 
+using your browser go to juliabox.com and sign in using your preferred method (via linked in, google, or github)
 go to the console tab and execute the following
 git clone https://github.com/alexfakos/en2class.git
 
