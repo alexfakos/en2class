@@ -7,7 +7,7 @@ this is a simple example of
 
 2)Setting prices to maximize profits 
 
-3)`Estimating' the price coefficient of demand from observed market shares prices, and known outside option utility
+3)`Estimating' the price coefficient of demand from observed market shares, prices, and known outside option utility
 
 
 INSTRUCTIONS
