@@ -9,7 +9,7 @@ this is a simple example of
 
 3)`Estimating' the price coefficient of demand from observed market shares, prices, and known outside option utility by inverting the market share equations.
 
-Note: The model ignores the supply side of the market and the endogeneity of the errors in order to focus on the demand side and give an intuitive idea of the inverse problem of estimating demand parameters. For more informatio on demand estimation see Berry(1994, Rand) and Berry, Levinsohn, and Pakes(1995, Econometrica), Nevo(2001, Econometrica), Ackerberg, Benkard, Berry, Pakes(2007, Handbook of Econometrics) and the references therein.   
+Note: The model ignores the supply side of the market and the endogeneity of the errors in order to focus on the demand side and give an intuitive idea of the inverse problem of estimating demand parameters. For more information on demand estimation see Berry(1994, Rand) and Berry, Levinsohn, and Pakes(1995, Econometrica), Nevo(2001, Econometrica), Ackerberg, Benkard, Berry, Pakes(2007, Handbook of Econometrics) and the references therein.   
 
 the code is writen in Julia (http://julialang.org/) which is a free programming language for scientific computing. The code is writen to be intuitive and readable by humars. The code is not optimized for performance and it can be a little slow. 
 
