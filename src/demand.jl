@@ -11,6 +11,9 @@ function shares(Nc,bp,p1,p2,u0,prnt)
         tmp=sortperm(consuopt[:,i])
         choice[i]=tmp[end]
     end
+    if prnt == 1
+        println("The price coefficient, b is: ",bp)
+    end
     ncons=zeros(3)
     ncons[1]=sum(choice.==1)
     ncons[2]=sum(choice.==2)
@@ -28,7 +31,6 @@ end
 
 
 function calcdemand1(Nc,bp,p2,u0)
-    srand(2)
     p=0.0
     step=0.1
     (n,b,c)=shares(Nc,bp,p,p2,u0,0)
@@ -46,6 +48,34 @@ function calcdemand1(Nc,bp,p2,u0)
     end
     return (D,p)
 end
+
+function invertdemand(sh1,sh2,sh3,p1,p2,u0,Nc)
+    b=0.0
+    bopt=copy(b)
+    step= 0.05
+    (n,sh,c)=shares(Nc,b,p1,p2,u0,0)
+    diff=norm( [ sh[1]-sh1; sh[2]-sh2 ])
+    diffopt = copy(diff)
+    for i=1:1e5
+        if diff>1e-4
+            b=b-step
+            (n,sh,c)=shares(Nc,b,p1,p2,u0,0)
+            diff=norm( [ sh[1]-sh1; sh[2]-sh2 ])
+            if diff<diffopt
+                diffopt= diff
+                bopt=b
+            end
+        else
+            break
+        end
+    end
+    #println("Estimated b is: ", bopt)
+    println("Estimated shares and price coefficient")
+    shares(Nc,bopt,p1,p2,u0,1)
+    return (bopt,diff)
+end
+
+
 
 
 
