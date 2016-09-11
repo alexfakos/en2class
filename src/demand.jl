@@ -21,9 +21,9 @@ function shares(Nc,bp,p1,p2,u0,prnt)
     shares  =ncons./Nc
     if prnt == 1
         println("Market Shares in \%")
-        @printf "Product 1:  %2.1f\n"  round(shares[1]*1000) /10     
-        @printf "Product 2:  %2.1f\n"  round(shares[2]*1000) /10     
-        @printf "Not buy  :  %2.1f\n"  round(shares[3]*1000) /10  
+        @printf "Product 1:  %2.3f\n"  shares[1]*100     
+        @printf "Product 2:  %2.3f\n"  shares[2]*100     
+        @printf "Not buy  :  %2.3f\n"  shares[3]*100  
     end
     return (ncons,shares,choice)
 end
@@ -73,6 +73,25 @@ function invertdemand(sh1,sh2,sh3,p1,p2,u0,Nc)
     println("Estimated shares and price coefficient")
     shares(Nc,bopt,p1,p2,u0,1)
     return (bopt,diff)
+end
+
+
+function maximizeprofits(Demand,price,mc)
+    profits=Demand[1]*(price[1]-mc)
+    optprofits=copy(profits)
+    optindex=1
+    for i=2:length(Demand)
+        profits=Demand[i]*(price[i]-mc)
+        if profits>optprofits
+            optprofits=profits
+            optindex=i
+        end
+    end
+    println("Profit maximizing price is: ", price[optindex])
+    println("Marginal cost is: ", mc)
+    println("Profit maximizing number of customers is: ", Demand[optindex])
+    println("Profit maximizing sales are: ", Demand[optindex]*price[optindex])
+    println("Maximum variable profits are: ", optprofits)
 end
 
 
