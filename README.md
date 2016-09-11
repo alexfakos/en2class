@@ -9,7 +9,7 @@ this is a simple example of
 
 3)`Estimating' the price coefficient of demand from observed market shares, prices, and known outside option utility by inverting the market share equations.
 
-the code is writen in Julia which is a free programming language for scientific computing. The code is writen to be intuitive and readable by humars. The code is not optimized for performance and it can be a little slow. 
+the code is writen in Julia (http://julialang.org/) which is a free programming language for scientific computing. The code is writen to be intuitive and readable by humars. The code is not optimized for performance and it can be a little slow. 
 
 INSTRUCTIONS
 
