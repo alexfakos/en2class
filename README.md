@@ -18,15 +18,7 @@ using Distributions     then press Shift+Enter
 
 include("rundir.jl")   then press Shift+Enter
 
-rundir();              then press Shift+Enter
+rundir(4);              then press Shift+Enter to compile
 
-you should be able to see 
-
-Market Shares in %
-
-Product 1:  46.5
-
-Product 2:  38.0
-
-Not buy  :  15.5
+rundir(400);              then press Shift+Enter to run the model
 
