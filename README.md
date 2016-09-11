@@ -8,7 +8,7 @@ this is a simple example of
 3)`Estimating' the price coefficient of demand from observed market shares prices, and known outside option utility
 
 
-ISTRUCTIONS
+INSTRUCTIONS
 
 got to juliabox.com
 go to the console tab and execute the following
