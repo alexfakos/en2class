@@ -13,7 +13,7 @@ the code is writen in Julia (http://julialang.org/) which is a free programming 
 
 INSTRUCTIONS
 
-using your browser go to https://juliabox.com/ and sign in using your preferred method (via linked in, google, or github)
+using your browser go to https://juliabox.com/ and sign in using your preferred method (via linkedin, google, or github)
 
 In the following instructions the command is in ' ' 
 
