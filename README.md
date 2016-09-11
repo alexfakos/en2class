@@ -20,13 +20,13 @@ So when I tell you execute 'command' you have to type: command  and then press e
 
 ===============================================================================
 
-go to the console tab and type following (if you want to paste the command, right click in the black space and choose: paste from browser):
+go to the console tab and type the following (if you want to paste the command, right click in the black space and choose: paste from browser):
 
 'git clone https://github.com/alexfakos/en2class.git'  then press enter
 
 go to the jupyter tab and then open the folder  en2class and then the folder src
 
-then got to the New tab (top right corner) and select: New>julia 0.4.6
+go to the New tab (top right corner) and select: New>julia 0.4.6
 
 go to the new notebook and type the following commands:
 
