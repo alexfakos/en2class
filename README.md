@@ -4,13 +4,15 @@ Teaching material for Estrategia II at ITAM
 this is a simple example of
 
 1)Calculating demand from a discrete choice model
+
 2)Setting prices to maximize profits 
+
 3)`Estimating' the price coefficient of demand from observed market shares prices, and known outside option utility
 
 
 INSTRUCTIONS
 
-got to juliabox.com
+using your browser go to juliabox.com and singn in using your preferred method 
 go to the console tab and execute the following
 git clone https://github.com/alexfakos/en2class.git
 
