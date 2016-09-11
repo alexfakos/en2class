@@ -12,7 +12,7 @@ this is a simple example of
 
 INSTRUCTIONS
 
-using your browser go to juliabox.com and sign in using your preferred method (via linked in, google, or github)
+using your browser go to https://juliabox.com/ and sign in using your preferred method (via linked in, google, or github)
 
 go to the console tab and execute the following
 
