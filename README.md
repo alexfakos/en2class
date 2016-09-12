@@ -13,19 +13,17 @@ This is a simple example of
 
 The code is writen in [Julia](http://julialang.org/) which is a free programming language for scientific computing. The code is writen to be intuitive and readable by humars. The code is not optimized for performance, uses brute force grid search for optimization and equation solving, and thus can be a little slow. The grid search algorithm serves to highlight the simple structure of the problems. 
 
-## INSTRUCTIONS
+## Instructions
 
 Using your browser go to [juliabox](https://juliabox.com/) and sign in using your preferred method (via linkedin, google, or github)
 
-In the following instructions the command is in ' ' 
+In the following instructions the code is in `code` 
 
 So when I tell you execute 'command' you have to type: command  and then press enter or shift+enter
 
-===============================================================================
-
 go to the console tab and type the following (if you want to paste the command, right click in the black space and choose: paste from browser):
 
-'git clone https://github.com/alexfakos/en2class.git'  then press enter
+'git clone https://github.com/alexfakos/en2class.git'  then press `enter`
 
 go to the jupyter tab and then open the folder  en2class and then the folder src
 
