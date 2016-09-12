@@ -54,4 +54,4 @@ then press `Shift+Enter`
 ```julia
 plot(d,p)
 ```
-then press Shift+Enter to plot the demand curve
+then press Shift+Enter to plot the demand curve for product 1 for a given price of product 2
