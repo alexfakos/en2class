@@ -13,6 +13,7 @@ This is a simple example of
 
 The code is writen in [Julia](http://julialang.org/) which is a free programming language for scientific computing. The code is writen to be intuitive and readable by humars. The code is not optimized for performance, uses brute force grid search for optimization and equation solving, and thus can be a little slow. The grid search algorithm serves to highlight the simple structure of the problems. 
 
+
 ## Instructions
 
 Using your browser go to [juliabox](https://juliabox.com/) and sign in using your preferred method (via linkedin, google, or github)
@@ -55,3 +56,4 @@ then press **Shift+Enter**
 plot(d,p)
 ```
 then press **Shift+Enter** to plot the demand curve for product 1 for a given price of product 2
+
