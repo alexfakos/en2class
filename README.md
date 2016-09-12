@@ -25,7 +25,7 @@ go to the console tab and type the following (if you want to paste the command, 
 
 `git clone https://github.com/alexfakos/en2class.git`  then press `enter`
 
-go to the jupyter tab and then open the folder  *en2class* and then the folder *src*
+go to the jupyter tab and then open the folder  **en2class** and then the folder **src**
 
 go to the New tab (top right corner) and select: New>julia 0.4.6
 
