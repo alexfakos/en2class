@@ -7,7 +7,7 @@ This is a simple example of
 
 2. Setting prices to maximize profits 
 
-3. `Estimating' the price coefficient of demand from observed market shares, prices, and known outside option utility by inverting the market share equations.
+3. "Estimating" the price coefficient of demand from observed market shares, prices, and known outside option utility by inverting the market share equations.
 
 **Note**: The model ignores the supply side of the market and the endogeneity of the errors in order to focus on the demand side and give an intuitive idea of the inverse problem of estimating demand parameters. For more information on demand estimation see Berry(1994, Rand) and Berry, Levinsohn, and Pakes(1995, Econometrica), Nevo(2001, Econometrica), Ackerberg, Benkard, Berry, Pakes(2007, Handbook of Econometrics) and the references therein.   
 
