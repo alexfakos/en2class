@@ -19,11 +19,11 @@ Using your browser go to [juliabox](https://juliabox.com/) and sign in using you
 
 In the following instructions the command is in `command` 
 
-So when I tell you execute `command` you have to type: command and then press `Enter` or `Shift+Enter`
+So when I tell you execute `command` you have to type: command and then press **Enter** or **Shift+Enter**
 
 go to the console tab and type the following (if you want to paste the command, right click in the black space and choose: paste from browser):
 
-`git clone https://github.com/alexfakos/en2class.git`  then press `enter`
+`git clone https://github.com/alexfakos/en2class.git`  then press **Enter**
 
 go to the jupyter tab and then open the folder  **en2class** and then the folder **src**
 
@@ -34,24 +34,24 @@ go to the new notebook and type the following commands:
 ```julia
 include("rundir.jl")
 ``` 
-then press `Shift+Enter`
+then press **Shift+Enter**
 
 ```julia 
 rundir(4);
 ``` 
-then press `Shift+Enter` to compile
+then press **Shift+Enter** to compile
 
 ```julia
 (d,p)=rundir(400);
 ```
-then press `Shift+Enter` to run the model for 400 consumers
+then press **Shift+Enter** to run the model for 400 consumers
 
 ```julia
 using PyPlot
 ```
-then press `Shift+Enter` 
+then press **Shift+Enter** 
 
 ```julia
 plot(d,p)
 ```
-then press Shift+Enter to plot the demand curve for product 1 for a given price of product 2
+then press **Shift+Enter** to plot the demand curve for product 1 for a given price of product 2
