@@ -34,12 +34,24 @@ go to the new notebook and type the following commands:
 ```julia
 include("rundir.jl")
 ``` 
-then press Shift+Enter
+then press `Shift+Enter`
 
-'rundir(4);'              then press Shift+Enter to compile
+```julia 
+rundir(4);
+``` 
+then press `Shift+Enter` to compile
 
-'(d,p)=rundir(400);'      then press Shift+Enter to run the model
+```julia
+(d,p)=rundir(400);
+```
+then press `Shift+Enter` to run the model
 
-'using PyPlot'            then press Shift+Enter 
+```julia
+using PyPlot
+```
+then press `Shift+Enter` 
 
-'plot(d,p)'               then press Shift+Enter to plot the demand curve
+```julia
+plot(d,p)
+```
+then press Shift+Enter to plot the demand curve
