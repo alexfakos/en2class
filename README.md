@@ -28,7 +28,7 @@ go to the console tab and type the following (if you want to paste the command, 
 
 go to the jupyter tab and then open the folder  **en2class** and then the folder **src**
 
-go to the New tab (top right corner) and select: New>julia 0.4.6
+go to the New tab (top right corner) and select: New>julia 0.4.7
 
 go to the new notebook and type the following commands:
 
