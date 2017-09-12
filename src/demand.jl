@@ -1,7 +1,14 @@
 #calculate demand functions from discrete choice model
 function shares(Nc,bp,p1,p2,u0,prnt)
     srand(2) #set the seed
-    const consepsil = rand(GeneralizedExtremeValue(0,1,0),2,Nc) #generate heterogeneity
+    rdraws          = rand(2,Nc)
+    consepsil       = zeros(2,Nc)
+    for i=1:Nc
+        consepsil[1,i] = cdf_gumbel1_Pinv(rdraws[1,i],1,1)
+	consepsil[2,i] = cdf_gumbel1_Pinv(rdraws[2,i],1,1)
+    end
+      
+   # const consepsil = rand(GeneralizedExtremeValue(0,1,0),2,Nc) #generate heterogeneity
     const consu1    = bp*p1 + consepsil[1,:] #consumers' utility for t
     const consu2    = bp*p2 + consepsil[2,:] #consumers' utility for t
           u0        = fill(u0,(1,Nc))

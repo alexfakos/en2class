@@ -1,4 +1,5 @@
-using Distributions
+#using Distributions
+using GSL
 #using ASCIIPlots
 include("demand.jl")
 #@debug function rundir()
