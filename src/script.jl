@@ -2,10 +2,9 @@
 
 Pkg.add("GSL")
 Pkg.add("PyPlot")
-using PyPlot
 include("rundir.jl")
 (d,p)=rundir(400)
-plot(d,p)
+#plot(d,p)
 
 #=
 bp= -.13888888
