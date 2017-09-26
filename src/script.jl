@@ -1,7 +1,7 @@
 #script file to highlight consumer choice
 
 Pkg.add("GSL")
-Pkg.add("PyPlot")
+#Pkg.add("PyPlot")
 include("rundir.jl")
 (d,p)=rundir(400)
 #plot(d,p)
