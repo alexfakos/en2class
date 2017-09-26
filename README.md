@@ -33,27 +33,9 @@ go to the New tab (top right corner) and select: New>julia 0.4.7
 go to the new notebook and type the following commands:
 
 ```julia
-include("rundir.jl")
+include("script.jl")
 ``` 
 then press **Shift+Enter**
 
-```julia 
-rundir(4);
-``` 
-then press **Shift+Enter** to compile
 
-```julia
-(d,p)=rundir(400);
-```
-then press **Shift+Enter** to run the model for 400 consumers
-
-```julia
-using PyPlot
-```
-then press **Shift+Enter** 
-
-```julia
-plot(d,p)
-```
-then press **Shift+Enter** to plot the demand curve for product 1 for a given price of product 2
 
