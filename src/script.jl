@@ -1,5 +1,12 @@
 #script file to highlight consumer choice
 
+Pkg.add("GSL")
+include("rundir.jl")
+(d,p)=rundir(400)
+Pkg.add("PyPlot")
+plot(d,p)
+
+#=
 bp= -.13888888
 p1=2
 p2=2
@@ -23,3 +30,4 @@ for i=1:Nc
 end
 redisplay("Product choice for each concumer")
 redisplay(choice')
+=#
